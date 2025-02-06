@@ -34,6 +34,7 @@ export function useFetch(fetchFn, initialValue) {
   return {   // we can return objects or arrays - here we want to return states, formed as object keys
     isFetching,
     fetchedData,
+    setFetchedData,
     error
   }
 }
